@@ -55,6 +55,22 @@ nav ul li a {
     display: block;
     margin: 0 auto;
 }
+
+.cards {
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    padding: 50px;
+}
+.cards article {
+    background-color: var(--fondo-azul);
+    color: var(--texto-blanco);
+    padding: 25px;
+    width: 250px;
+    text-align: center;
+    border-radius: 8px;
+
+}
 /*Contacto*/
 .form-name {
 
